@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        mark {
+            background-color: darkviolet;
+        }
+    </style>
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Texto com semântica e não semântica</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG e (com semântica). </p> <!--Visualmente eles são iguais, mas um tem significado e o outro não-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em Itálico</i> usando a tag I e não (semântica).</p>
+    <p>Nesta frase, tenho um <em>termo em destaque</em> usando a tag EM e (com semântica).</p>
+    <h1>Mais formatações</h1>
+    <h2>Texto marcado (marca texto)</h2>
+    <p>Podemos colocar um <mark>texto marcado</mark> usando a tag MARK.</p>
+    <p>Não segue a mesma cor do <mark>texto marcado</mark> se a tag (STYLE) do CSS for dentro de cada parágrafo.</p> <!--Mas com o (seletor) em head podemos colocar pra todos os marks ficarem com a mesma cor!!-->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e <small>um texto pequeno.</small></p><!--O big é uma tag obsoleta, pois não tem sentido já small pode ter sentido ex:contratos (letras miudas)-->
+    <h2>Texto Deletado</h2>
+    <p>Podemos colocar um <del>texto ou frase como deletado</del>, que deve ser lido mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos colocar um <ins>texto com ênfase</ins> ou que foi colocado depois.</p>
+    <p>Temos também como colocar um <u>texto sublinhado</u> com a tag U.</p><!--A tag U é uma tag não semântica, ela não tem sentido (significado)-->
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subescrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

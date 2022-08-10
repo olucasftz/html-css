@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserção de vídeos hospedados localmente</h1>
+    <p>Esse vídeo está alocado no meu próprio servidor</p>
+    <video poster="imagens/my-photo.png" width="600" controls>
+        <source src="midia/my-video.mp4" type="video/mp4">
+        <source src="midia/my-video.m4v" type="video/m4v">
+        <source src="midia/my-video.ogv" type="video/ogg">
+        <source src="midia/my-video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video> <!--Esse jeito com "source" permite colocar mais de um type-->
+
+    <h1>Inserção de vídeos externos</h1> <!--Esses vídeos não gasta, pois está hospedado em outro lugar!-->
+    <h2>Vídeos dentro do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TnOVIkt4tfw?start=540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Vídeos dentro do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/330207644?h=6a9e658aaf" width="600" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>    
+</body>
+</html>

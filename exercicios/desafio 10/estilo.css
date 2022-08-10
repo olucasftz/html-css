@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroids';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    min-height: 150px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, #2d8b56, #378a5b, #154d2d, #063C1D);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.37);
+}
+
+nav {
+    padding: 10px;
+    padding-left: 25px;
+}
+
+nav > a {
+    color: rgb(228, 222, 211);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5%;
+} 
+
+a:hover {
+    background-color: rgba(103, 103, 104, 0.349);
+}
+
+main {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    margin: 0px 200px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.329);
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+.diferente {
+    font-family:'idroids';
+    color: #154d2d;
+    font-weight: bold;
+    background-image: none;
+    font-size: 1.7em;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family:'idroids';
+    color: #1a5e38;
+    font-weight: normal;
+    padding: 5px 20px;
+    background-image: linear-gradient(to right, #b3dfc5, #ffffff);
+    margin: 0px 30px;
+}
+
+article > p {
+    margin: 20px 30px;
+    text-align: center;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.video {
+    background-color: #154d2d;
+    margin: 0px 200px;
+    height: 500px;
+}
+
+.outlist {
+    background-color: white;
+    margin: 0px 200px;
+    padding: 20px;
+
+}
+
+.list {
+    background-color: #C5EBD6;
+    margin: 0px 20px;
+    padding: 0px 8px 8px 8px;
+    border-radius: 10px;
+    text-indent: 20px;
+}
+
+div {
+    background-color: #37a567;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px -8px 20px -8px;  
+
+}
+
+div > p {
+    display: inline;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {
+    background-color: #063C1D;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    text-align: center;
+    color: wheat;
+    font-weight: lighter;
+    padding: 10px;    
+}

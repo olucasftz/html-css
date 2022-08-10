@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(79, 79, 219);
+}
+
+a:active {
+    background-color: orange;
+}
+
+.principal::before {
+    content: '👉';
+}
+
+.principal::after {
+    content: '👈';
+}
+
+a::after {
+    content: '[link]';
+    font-weight: normal;
+}

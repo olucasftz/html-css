@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags com semântica</title>
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(44, 44, 44);
+            text-align: center;
+            color: #9a9afc;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        header > h1 {
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+        }
+        header > nav {
+            margin-top: 20px;
+            background-color: rgb(165, 165, 165);
+            box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.185);
+        }
+        nav > a {
+            color: aliceblue;
+            font-weight: lighter;
+            text-decoration: none;
+            padding-right: 15px;
+        }
+        nav:hover > a {
+            color: #9a9afc;
+            background-color: wheat;
+        }
+        main {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(165, 165, 165);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20% 0%;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.37);
+        }
+        section {
+            padding: 10px
+        }
+        article > h2 {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        article > p {
+            color: aliceblue;
+            text-align: justify;
+            text-indent: 10px;
+            background-color: rgb(44, 44, 44);
+        }
+        aside {
+            background-color: #9a9afc;
+            width: 240px;
+        }
+        footer {
+            background-color: rgb(44, 44, 44);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Projetin de um projetinho</h1>
+            <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <article>
+                    <h2>Jovem de 21 anos consegue um emprego com a progamação</h2>
+                    <p>Lucas começou os estudos de maneira e eficaz e em pouco tempo consegue o seu primeiro emprego com a progamação Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus expedita exercitationem mollitia voluptatem? Exercitationem nisi odit cupiditate deleniti dicta eum ipsum quo? Saepe quasi officiis debitis ab id amet maiores?</p>
+                    <aside>
+                        <p>Esse texto é baseado em fatos reais!</p>
+                    </aside>
+                </article>
+                <article>
+                    <h2>Jovem de 21 melhora muito o seu inglês</h2>
+                    <p>Lucas conseguiu com seus estudos de inglês chegar ao nível avançado da língua e agora está caminhando rumo ao emprego na gringa!</p>
+                    <aside>
+                        <p>Esse texto é baseado em fatos reais</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copy">Copyright C</p>
+        </footer>
+</body>
+</html>

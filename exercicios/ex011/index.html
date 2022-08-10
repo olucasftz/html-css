@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias e HTML5</title>
+</head>
+<body>
+    <h1>Imagens adaptação</h1>
+    <h2>Imagens adaptadas para tamanho de cada dispositivos</h2>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 720px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="Imagens flexiveis">
+    </picture> <!--Se começar com uma foto maior coloca min-width, se começar com uma foto menor começa com max. "começar" = img src="essa" "-->
+
+    <h1>Reproduzindo Audio 1</h1>
+    <audio src="midia/JJD - A New Adventure (feat. Molly Ann) [NCS10 Release].mp3" autoplay controls></audio> <!--autoplay não funciona mas da pra colocar o controls e ativar no site!-->
+    <h1>Reproduzindo Audio 2</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>Infelizmente não conseguimos reproduzir audio, você pode baixar o audio clicando <a href="midia/guanacast-33.mp3">aqui.</a></p>
+    </audio>
+</body>
+</html>
