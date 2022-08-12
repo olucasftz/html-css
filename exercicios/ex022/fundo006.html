@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos fundo + shorthand</title>
+    <style>
+        body {
+            /* ~TESTE~
+            height: 100vh; 
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+        /* SHORTHAND - BACKGROUND
+            color > image > position > repeat > [size] > attachment 
+
+            todos funcionam menos o size (ta escrito que pode (W3C), mas não funciona)
+        */ 
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+        }
+
+        main {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+        <main>
+        <h1> Teste de imagem do fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fugit optio dignissimos mollitia qui dicta natus illum aperiam at, error nulla obcaecati eaque iusto laborum eos accusamus nisi, consequatur accusantium?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ut commodi quia itaque ratione nemo odio placeat fuga sapiente, facilis ipsam fugiat hic maiores ullam voluptatibus ducimus voluptatem non vero.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa illum veritatis! In omnis velit adipisci commodi voluptates similique autem consequuntur a, quod, ipsum fuga minima tenetur laboriosam impedit fugiat.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis ad sunt possimus, alias recusandae rerum numquam quisquam odio iste, quas consectetur voluptas enim nobis ducimus vero natus consequatur magni?</p>
+    </main>    
+</body>
+</html>
