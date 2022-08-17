@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------------------
+
+- Dicas/hacks e simplificações
+
+1. Copiar todo o cordel e colocar no html direto
+2. Pasta para o link do as CSS
+3. Editar Header e Footer primeiro
+4. Englobar class iguais em diferentes seletores personalizado para mudanças gerais
+5. No CSS colocar modificações iguais para seletores diferentes na mesma linha
+ex: header a:hover, footer a:hover {
+
+-----------------------------------------------------------------------------------
+
+- Jeito do Gustavo Guanabara
+
+1. Uma <Section para cada frase do Cordel
+- Isso é melhor pra englobar tudo que vai ser igual para ser mais prático para modificar ex: Tamanho geral
+
+2.configuração geral (* {margin e padding 0px;})  ({html e body min-hight e background color})
+
+3. No HTML ter class iguais para section iguais ex: class= imagem ou class= normal
+
+4. Editar Header e Footer primeiro
+
+5. background-color na section de imagem para serparar ta section normal
+
+6. Configuração geral da section de tamanhos (padding) 
+ex: padding-top e padding-bottom 10vh;
+
+7. Caixa preta meio transparente por baixo do parágrafo da imagem, junto com display inline-block para a caixa adequar ao tamanho do conteúdo (parágrafo)
+
+8. Variável para fontes (:root)
+
+9. Tamanho da font com porcentagens da view width para diminuir e aumentar o tamanho das letras em conformidade ao tamanho da tela
+- * a melhor forma de se fazer é por media query, mas ainda não foi aprendido
+
+10. ids só no seletor com a imagem 
+
+-----------------------------------------------------------------------------------
+
+- Técnicas novas
+
+1. Text-transform: upperchase; 
+- Transformar todas as letras em maiuscula
+
+2. Font-variant: small-caps;
+- Transforma todas as letras maiusculas porém tendo as primeiras letras maiores
