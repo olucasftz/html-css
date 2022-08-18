@@ -27,3 +27,8 @@ TAMANHO DE FONT
 PADDING 
 
 1. Usar vh (padding da view hight) aumenta conforme a view hight do seletor 
+
+GERAL
+
+inline-block pra deixar caixa do tamanho do conteúdo ex: sombra em baixo do parágrafo 
+
