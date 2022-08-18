@@ -1,0 +1,29 @@
+HTML
+
+1. Arrumar o html primeiro, com seletores e tudo.
+
+2. Simplificar o código, sempre procurar deixar menos seletores com a mesma modificação pra coisas diferentes ex: vários section pra parágrafos diferentes
+
+3. Link do css em uma Pasta
+
+-----------------------------------------------------------------------------------
+
+CSS
+
+1. Import de fontes, variáveis e configurações gerais sempre em primeiro lugar
+
+2. Se o header e footer forem simples, faze-los primeiro 
+
+3. Fazer modificações agrupando mais de um seletor personalizado caso a modificação for em ambos ex: header a, footer a { }
+
+-----------------------------------------------------------------------------------
+
+DICAS E HACKZINHOS
+
+TAMANHO DE FONT
+
+1. Usar vw (tamanho da view width) o texto aumenta e diminui conforme o dispositivos, porém tem um jeito melhor de fazer com MEDIA QUERIE
+
+PADDING 
+
+1. Usar vh (padding da view hight) aumenta conforme a view hight do seletor 
